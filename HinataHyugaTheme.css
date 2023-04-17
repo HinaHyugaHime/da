@@ -1,0 +1,143 @@
+/**
+* @name HinataHyugaTheme
+* @author Hina#0001 (based off nyri4's)
+* @description A theme based on @Melonturtle_ stream design
+* @invite rtBQX5D3bD
+* @version 1.0
+*/
+@import url("https://nyri4.github.io/LilyPichu/main.css");
+
+:root {
+
+/* --- User variables --- */
+
+/* Jumping GIF */
+--jumping-gif: url('https://img.wattpad.com/5f1e0a07bbf5991c5477d43ae6a95fc6811c321f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f636d687659334333496c704e36513d3d2d313032383939343435362e313636353534613637323937323163303734373031343030313532332e676966');
+
+/* Background (if you want an image replace it by : 
+
+--background-tertiary-alt: url("image-link"); without that => */
+--background-tertiary-alt: url("https://a-static.besthdwallpaper.com/hinata-hyuga-naruto-spring-mood-sakura-blossom-wallpaper-1366x768-69418_46.jpg");
+
+/* Border-radius for the whole theme */
+--border-radius: 20px;
+
+}
+
+.theme-dark {
+
+    /* Text */
+    --text-normal: #f8e1e5;
+    --header-primary: #ebe1f8;
+    --interactive-normal: #c364d6;
+    --channels-default: #a06aad;
+
+    --text-muted: #e2c1c7;
+    --interactive-muted: #75599b;
+
+    --header-secondary: #984daa;
+    --interactive-hover: #882b83;
+    --interactive-active: #a371a179;
+
+    /* Background color */
+    --background-primary: rgba(119, 85, 146, 0.342) !important;
+    --background-secondary: rgba(6, 5, 7, 0.9);
+    --background-secondary-alt: rgba(110, 79, 134, 0.432);
+    --background-tertiary: #bf6ec2;
+    --background-floating: #000000;
+    --background-accent: #8c5a96;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(86, 38, 124, 0.32);
+    --background-modifier-active: rgba(146, 51, 165, 0.32);
+    --background-modifier-selected: rgba(103, 40, 119, 0.32);
+    --toast-background: #763d9c !important;
+    --toast-header: #8b32ad !important;
+    --toast-contents: #7f419c !important;
+    --toast-border: #653d92 !important;
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+    .colorBrand-ROmMP1 { color: #9d4bbd;}
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { background-color: var(--background-modifier-hover) !important;}
+
+    /* Buttons */
+    .lookFilled-1Gx00P { background-color: #c5536c !important;}
+    .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #b64a61 !important;}
+    .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color: #c5536c; border-color: #c5536c;}
+
+    /* Hover background */
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { color: var(--interactive-normal);}
+
+.theme-light {
+
+    /* Text */
+    --text-normal: #a86373;
+    --header-primary: #a86373;
+    --interactive-normal: #a86373;
+    --channels-default: #a86373;
+
+    --text-muted: #9463a8;
+    --interactive-muted: #9c66c0;
+
+    --header-secondary: #b792cf;
+    --interactive-hover: #a476ca;
+    --interactive-active: #8f6fb3;
+
+    /* Background color */
+    --background-primary: #ffffff;
+    --background-secondary: #ffeefe;
+    --background-secondary-alt: #f7c7fd;
+    --background-tertiary: #debbff;
+    --background-floating: #f4bbff;
+    --background-accent: #9456b1;
+    --channeltextarea-background: var(--background-secondary);
+    --background-modifier-hover: rgba(56, 31, 31, 0.062);
+    --background-modifier-active: rgba(104, 53, 97, 0.123);
+    --background-modifier-selected: rgba(31, 21, 21, 0.11);
+
+    /* Scrollbar */
+    --scrollbar-auto-thumb: var(--background-tertiary);
+    --scrollbar-auto-track: var(--background-secondary-alt);
+    --scrollbar-thin-thumb: var(--background-tertiary);
+    --scrollbar-thin-track: transparent;
+
+    /* Other */
+    --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+
+    .colorBrand-ROmMP1 { color: #9262c0;}
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { background-color: var(--background-modifier-hover) !important;}
+
+    /* Buttons */
+    .lookFilled-1Gx00P { background-color: #9253c5 !important;}
+    .lookFilled-1Gx00P:active, .lookFilled-1Gx00P:hover { background-color: #ad4ab6 !important;}
+    .lookOutlined-3sRXeN:not(.colorWhite-rEQuAQ) { color: #b253c5; border-color: #c5536c;}
+
+    /* Hover background */
+    .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) { color: var(--interactive-normal);}
+
+    :root .app-2CXKsg::before,
+    :root .app-3xd6d0::before,
+    :root .app-3xd6d0::after, 
+    :root .app-2CXKsg::after,
+    :root .layers-OrUESM::before,
+    :root .layers-OrUESM::after,
+    :root .app-3xd6d0::before, 
+    :root .bg-1QIAus::after,
+    :root .bg-1QIAus::before {
+  content: none !important;
+    }
+  .container-1eFtFS::after{content:"Gotta work hard!";}
+  .homeIcon-r0w4ny path {fill: transparent}
+.homeIcon-r0w4ny {
+    background: url('https://preview.redd.it/hinata-hyuga-v0-jm2p4x9xfbga1.png?width=640&crop=smart&auto=webp&s=2aa2e8d74f94dd06dd4b542808975788798e8bed') center/cover no-repeat;
+    min-width: 60px;
+    min-height: 60px;
+}

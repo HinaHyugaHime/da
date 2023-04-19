@@ -26,29 +26,29 @@
 .theme-dark {
 
     /* Text */
-    --text-normal: #fff9f9;
-    --header-primary: #ffffff;
-    --interactive-normal: #ffffff;
-    --channels-default: #ffffff;
+    --text-normal: #000000;
+    --header-primary: #000000;
+    --interactive-normal: #000000;
+    --channels-default: #000000;
 
-    --text-muted: #ffffff;
-    --interactive-muted: #fcfcfc6b;
+    --text-muted: #000000;
+    --interactive-muted: #0000006b;
 
     --header-secondary: #a25eb3;
     --interactive-hover: #e6dee6;
-    --interactive-active: #fffffff1;
+    --interactive-active: #fffffffa;
 
     /* Background color */
-    --background-primary: rgba(0, 0, 0, 0.219) !important;
-    --background-secondary: rgba(0, 0, 0, 0.247);
-    --background-secondary-alt: rgba(109, 40, 161, 0.432);
-    --background-tertiary: #00000052;
-    --background-floating: #00000062;
+    --background-primary: rgba(0, 0, 0, 0.13) !important;
+    --background-secondary: rgba(107, 106, 106, 0.315);
+    --background-secondary-alt: rgba(108, 40, 161, 0.281);
+    --background-tertiary: #77767691;
+    --background-floating: #75737327;
     --background-accent: #681a77;
     --channeltextarea-background: var(--background-secondary);
-    --background-modifier-hover: rgba(86, 38, 124, 0.32);
+    --background-modifier-hover: rgba(85, 38, 124, 0.377);
     --background-modifier-active: rgb(165, 8, 238);
-    --background-modifier-selected: rgba(103, 40, 119, 0.411);
+    --background-modifier-selected: rgba(103, 40, 119, 0.897);
     --toast-background: #763d9c !important;
     --toast-header: #8b32ad !important;
     --toast-contents: #7f419c !important;
